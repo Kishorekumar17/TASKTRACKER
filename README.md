@@ -34,7 +34,7 @@ The Task Management Application is a simple web-based tool that allows users to 
 ```bash
 cd task-management-app
 ```
-3.open main.html in your browser
+3.open index.html in your browser to visualize the output.
 ## Usage 
 1. Enter a task name and description in the input fields.
 2. Select a due date for the task.
