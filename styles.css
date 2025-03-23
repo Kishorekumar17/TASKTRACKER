@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6XgheC4PDL8GGnAAVYJ2ab/01c613d21fe5b79bf7311c68456af2e2/iStock-926151548.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+input[type="date"]:focus {
+    border-color: #ff7e5f;
+}
+
+button {
+    padding: 10px;
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#tasklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+.task-item:hover {
+    background-color: #f9f9f9;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    margin-left: 5px;
+}
+
+button.edit {
+    background-color: #ffbb33;
+}
+
+button.delete {
+    background-color: #ff4d4d;
+}
+
+button.edit:hover {
+    background-color: #e6a800;
+}
+
+button.delete:hover {
+    background-color: #e60000;
+}
